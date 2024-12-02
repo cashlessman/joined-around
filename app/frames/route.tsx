@@ -161,7 +161,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                        />
               <span tw="flex text-xl">{data?.data[0]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[0]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[0]?.username ?? "N/A"}</span>
             </div>
 
             <div tw="flex flex-col items-center justify-center">
@@ -170,7 +170,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                          />
               <span tw="flex text-xl">{data?.data[1]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[1]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[1]?.username ?? "N/A"}</span>
             </div>
             <div tw="flex flex-col items-center justify-center">
                      <img
@@ -178,7 +178,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                          />
               <span tw="flex text-xl">{data?.data[2]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[2]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[2]?.username ?? "N/A"}</span>
             </div>
             <div tw="flex flex-col items-center justify-center">
                      <img
@@ -186,7 +186,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                          />
               <span tw="flex text-xl">{data?.data[3]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[3]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[3]?.username ?? "N/A"}</span>
             </div>
             
                   
@@ -199,7 +199,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                          />
               <span tw="flex text-xl">{data?.data[4]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[4]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[4]?.username ?? "N/A"}</span>
             </div>
             <div tw="flex flex-col items-center justify-center">
                      <img
@@ -207,7 +207,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                          />
               <span tw="flex text-xl">{data?.data[5]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[5]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[5]?.username ?? "N/A"}</span>
             </div>
             <div tw="flex flex-col items-center justify-center">
                      <img
@@ -215,7 +215,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                        />
               <span tw="flex text-xl">{data?.data[6]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[6]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[6]?.username ?? "N/A"}</span>
             </div>
             <div tw="flex flex-col items-center justify-center">
                      <img
@@ -223,7 +223,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                          />
               <span tw="flex text-xl">{data?.data[7]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[7]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[7]?.username ?? "N/A"}</span>
             </div>
 
             
@@ -237,7 +237,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-30 h-30 rounded-lg border-4 border-blue-500"
                          />
               <span tw="flex text-xl">{data?.data[8]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[8]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[8]?.username ?? "N/A"}</span>
             </div>
 
             </div>
@@ -248,7 +248,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                          />
               <span tw="flex text-xl">{data?.data[9]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[9]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[9]?.username ?? "N/A"}</span>
             </div>
             <div tw="flex flex-col items-center justify-center">
                      <img
@@ -256,7 +256,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                          />
               <span tw="flex text-xl">{data?.data[10]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[10]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[10]?.username ?? "N/A"}</span>
             </div>
             <div tw="flex flex-col items-center justify-center">
                      <img
@@ -264,7 +264,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                          />
               <span tw="flex text-xl">{data?.data[11]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[11]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[11]?.username ?? "N/A"}</span>
             </div>
             <div tw="flex flex-col items-center justify-center">
                      <img
@@ -272,7 +272,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                          />
               <span tw="flex text-xl">{data?.data[12]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[12]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[12]?.username ?? "N/A"}</span>
             </div>
  </div>
 
@@ -283,7 +283,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                        />
               <span tw="flex text-xl">{data?.data[13]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[13]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[13]?.username ?? "N/A"}</span>
             </div>
             <div tw="flex flex-col items-center justify-center">
                      <img
@@ -291,7 +291,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                        />
               <span tw="flex text-xl">{data?.data[14]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[14]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[14]?.username ?? "N/A"}</span>
             </div>
             <div tw="flex flex-col items-center justify-center">
                      <img
@@ -299,7 +299,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                        />
               <span tw="flex text-xl">{data?.data[15]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[15]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[15]?.username ?? "N/A"}</span>
             </div>
             <div tw="flex flex-col items-center justify-center">
                      <img
@@ -307,7 +307,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
                          tw="w-27 h-27 rounded-full border-4 border-[#FFFACD]"
                        />
               <span tw="flex text-xl">{data?.data[16]?.fid ?? "N/A"}</span>
-              <span tw="flex text-2xl">{data?.data[16]?.username ?? "N/A"}</span>
+              <span tw="flex text-2xl">@{data?.data[16]?.username ?? "N/A"}</span>
             </div>
             
 
@@ -360,7 +360,7 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
       <Button action="post" target={{ href: `${appURL()}?userfid=${fid}` }}>
         Check Me
       </Button>,
-      <Button action="link" target={shareUrl1}>
+      <Button action="link" target={shareUrl2}>
         Share
       </Button>,
             <Button action="post" target={`https://around-dm.vercel.app/frames`}>
