@@ -330,9 +330,9 @@ let  default_image_url="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0I
 );
 
 
-  const shareUrl1 = `https://warpcast.com/~/compose?text=${shareText}&embeds[]=https://followers-count.vercel.app/frames`;
+  const shareUrl1 = `https://warpcast.com/~/compose?text=${shareText}&embeds[]=https://joined-around.vercel.app/frames`;
 
-  const shareUrl2 = `https://warpcast.com/~/compose?text=${shareText}&embeds[]=https://followers-count.vercel.app/frames${
+  const shareUrl2 = `https://warpcast.com/~/compose?text=${shareText}&embeds[]=https://joined-around.vercel.app/frames${
     fid ? `?userfid=${fid}` : ""
   }`;
 
