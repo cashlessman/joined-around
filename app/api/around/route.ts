@@ -50,7 +50,12 @@ export async function GET(req: NextRequest) {
             }
 
             const { fid: userFid, username, displayName, pfp } = user;
-            const pfpUrl = pfp?.url || null;
+            let pfpUrl = pfp?.url || null;
+
+            // If fid < 17, set pfpUrl to null for index 9
+            if (currentFid < 17 && i === 9) {
+              pfpUrl = null;
+            }
 
             return {
               fid: userFid,
@@ -74,7 +79,7 @@ export async function GET(req: NextRequest) {
 
     // console.log("Fetched user details:", userDetails);
     console.log("hehe")
-    console.log(userDetails[6]?.fid )
+    // console.log(userDetails[6]?.fid )
 
     return NextResponse.json(userDetails);
   } catch (error) {
